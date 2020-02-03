@@ -1,2 +1,222 @@
-# my-first-website
-assignment 2
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+    <title>Portfolio_GV</title>
+    <script src="https://kit.fontawesome.com/e0a17798b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="heading-main">
+            Portfolio
+        </div>
+        <div class=" heading-subsection">
+            <em><strong> "Real generosity towards the furture lies in giving all to the present."- Albert Camus</strong>
+            </em>
+        </div>
+        <div class=" logo-container">
+            <strong>Gabriel Vézina</strong>
+        </div>
+        <div class="heading">
+            Montréal, Québec
+        </div>
+        <!-- Scroll container starts here -->
+        <!-- <a href="about me">
+            <div class=" scroll-container">
+            <div class= "scroll-text"> -->
+        <div class="icon-container">
+            <i class="fas fa-mobile-alt"> </i>
+            Scroll Down
+
+        </div>
+
+        <!-- Scroll container ends here -->
+
+
+    </header>
+
+
+    <!-- about me section -->
+    <section class="about-me">
+        <h1>About Me</h1>
+        <img class="images-head-shot" img src="images/head-shot.jpg" width="250px" height="250px">
+        <div class="about-me-content">
+
+
+            <p> To whom this may concern,</p>
+
+            <p> My name is Gabriel Vezina and I am from Montréal,Québec.
+
+                I recently completed my psychology bachelors at Concordia University. With that said, I am currently
+                completing and associates
+                diploma in social media marketing. While completing the diploma, I am also in the process of applying to
+                grad schoool within JMSB's Buisiness Administration program. At the end of my academic career, I hope to
+                become a public relations specialist. </p>
+
+            <P>Outside academics and work, I like to read, learn new skills and from time to time acquire new languages
+            </P>
+
+        </div>
+
+    </section>
+
+
+    <!-- academic background -->
+    <section class="academic-background">
+        <h1>Academic Background & Accomplishments</h1>
+        <div class="academic-background">
+        </div>
+        <a href="https://www.instagram.com/cupa.concordia/?hl=en" target="_blank">
+            <img src="images/cupa-team.jpg" height="320px" width="400px"></a>
+        <a href="https://www.facebook.com/pg/cupa.concordia" target="_blank">
+            <img src="images/cupa.jpg" height="320px" width="320px"></a>
+        <!-- <a href="https://www.facebook.com/events/150821165626029/" target="_blank"> -->
+        <!-- <img src="images/pcc2-2018.jpg" height="350px" width="600px"></a> -->
+        <p>As a psychology undergraduate student at Concordia University, I have had the privilege to
+            study the
+            fundamental facets of human emotion,cognition and behavior. With this in mind, the undergraduate program has
+            also given me opportunities to pursue my learning more actively and get involved with the mental health
+            community in innovative ways. Notably, I have had the opportunity to directly apply my knowledge at the
+            provincial psychology case competitions as both a contender and eventually as a coach for Concordia’s
+            neuroscience team. Within the 2018-2019 academic year, I had the honor to be elected as the finance
+            coordinator for the Concordia Undergraduate Psychology Association. Along with my team, I have organized
+            academic workshops, networking events and charity campaigns. These experiences provided me with
+            opportunities to enhance my theoretical knowledge and have exposed me to the basis of public relations,
+            event planning and financial management.
+
+            Nowadays, I am currently completing an associates diploma in social media marketing while also applying for
+            grad school for this upcoming in Buisiness Administration.
+        </p>
+        <h3> BA Specialization in Psychology (Fall 2016- Fall 2019)</h3>
+        <h3>Undergraduate Diploma in Social Media Applications and Marketing ( Winter 2020)</h3>
+        <ul>
+            <li> Freshman Orientation leader with the Arts and Science Federation of Association (ASFA)(2018,2019)</li>
+
+            <li> Inter-University Psychology Case Competition May 2018
+                Concordia Undergraduate Neuroscience Team
+                Topic- The Effects of Exercise on Alzheimer's Disease.</li>
+
+            <li> Concordia Undergraduate Psychology Association (CUPA) Vice President of Finance 2018-2019)</li>
+            <li> Freudian Orientation/ Get Psyched, September 2018</li>
+            <li>Quadfest BBQ by the Loyola Quad, September 2018</li>
+            <li> Psychology Lab fair, September 2018</li>
+            <li>Harry Potter Pub Crawl, October 2018</li>
+            <li>Psychology Networking, November 2018</li>
+            <li>Psychology Getaway/Academic Orientation, January 2019</li>
+            <li> Fifth Annual Psychology Case Competition (organiser), April 2019</li>
+        </ul>
+        <p>
+            <em>(click on the images above to see the social media platform for the undergraduate association.)</em>
+        </p>
+    </section>
+
+
+    <!-- work expirience -->
+    <section class="work-expirience">
+        <h1> Work Exprience</h1>
+        <div class="images-bli">
+            <a href="http://blicanada.net/bli-montreal/" target="_blank"> <img src="images/bli-teach.jpg" height="320px"
+                    width="220px"> <img src="images/bli-logo.png" height="320" width="220">
+            </a>
+            <a href="http://www.ilovetravel.com/" target="_blank"><img src="images/ilovetravel.png" height="320px"
+                    width="260px"> </a>
+            <p>Outside of academics, I have had the good fortune to expand my skill set outside of undergraduate field.
+                Over the course of summer 2019, I have had the honor to teach english as a second
+                language at the Bouchereau Lingua International in Montreal. Throughout my time, I taught children from
+                the ages of ten to sixteen and from a variety of nationalities. Prior to teaching, I also had the
+                privilege to work for a canadian youth tourism company called ILOVETRAVEL. Throughout two summers, I was
+                able to work abroad as trip leader in the Domincan Republic and as an airport coordinator in
+                montreal.Given these experiences, I was able to further hone my communication and organizational skills
+                in a creative manner.</p>
+            <ul>
+                <li> <strong>S-Trip/ILOVETRAVEL</strong>- Airport Coordinator & Trip Leader(tourism)
+                    May,June,July Travel seasons(2017, 2018)
+                    Required spanish, spent a week in Puerto Plata, Dominican Republic
+                </li>
+                <li><strong> Bouchereau Lingua International
+                    </strong> (BLI), ESL summer Instructor
+                    July to August 2019</li>
+
+            </ul>
+        </div>
+        <section>
+
+        </section>
+
+
+        <!-- Skills and Languages -->
+        <section class="s-l">
+            <h2>Skills and Languages</h2>
+            <span class="skills">
+                <ul>
+                    <h2> SKILLS</h2>
+                    <li> Leadership skills</li>
+                    <li> Digitally Literate</li>
+                    <li> Multilingual</li>
+                    <li> Finance Management</li>
+                    <li> Event Management</li>
+                    <li> Event/Social Media Marketing</li>
+                    <li>Workflow Planning</li>
+                    <li> Technical Writing</li>
+                </ul>
+            </span>
+            <span class=" langs">
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>English</li>
+                    <li>French</li>
+                    <li>Italian</li>
+                    <li> limited Spanish </li>
+                </ul>
+            </span>
+            <!-- <img src="images/white-full-body.jpg" height="280px" width="200px"> -->
+        </section>
+
+        <!-- Future aspirations -->
+        <section class="future">
+            <h1>Future Aspirations</h1>
+
+            <p>
+                Given both my academic and work exprirences, I hope pursue a career within either public relations
+                and/or advertisement.
+                Within the long run, I hope to continue with higher education so I can obtain as much insight as well as
+                the tools to thrive in felid.
+                As for time being, I will continue to get involved in as many opportunites that will provide me the
+                tools to the best assest that I can possibly be.
+            </p>
+        </section>
+
+        <!-- contact me container -->
+        <section class="contact-me-container">
+            <p>Contact Me: 1-514-603-1440 </p>
+            <p> email: <a href="gabrielvezina@outlook.com">gabrielvezina@outlook.com</a> </p>
+            <a href="fr.html/fr.html" target="_blank"> Français</a>
+            <a href="https://www.linkedin.com/in/gabriel-v%C3%A9zina-6b7366161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzJvoDFSSQFCSFDYv5T4yQw%3D%3D"
+                class="linked-in" target="_blank"> My LinkedIn Page</a>
+        </section>
+
+</body>
+<footer>
+    <section class="footer">
+        <p>Contact Me: 1-514-603-1440 </p>
+        <p> email: <a href="gabrielvezina@outlook.com">gabrielvezina@outlook.com</a> </p>
+        <a href="fr.html/fr.html" target="_blank"> Français</a>
+        <a href="https://www.linkedin.com/in/gabriel-v%C3%A9zina-6b7366161?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzJvoDFSSQFCSFDYv5T4yQw%3D%3D"
+            class="linked-in" target="_blank"> My LinkedIn Page</a>
+    </section>
+
+</footer>
+
+
+
+</html>
