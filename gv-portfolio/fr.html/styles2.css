@@ -1,0 +1,145 @@
+*{
+    margin: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.icon-container{
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+} 
+.header{
+    color: black;
+    height: 100vh ;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+    background-size: cover;
+    border-style: solid;
+
+}
+ 
+ 
+.heading-main{
+    font-size: 72px;
+    letter-spacing:15px;
+}
+.heading-subsection{
+   font-size: 38px;
+   letter-spacing: 6px;
+}
+
+.logo-container{
+    color: black;
+    font-size: 38px;
+    letter-spacing: 3px;
+    position:absolute;
+    top: 50%;
+    left: 40.5%;
+ 
+}
+.heading{
+    font-size: 38px;
+    position:absolute;
+    top: 60%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+}
+.contact-me-container{
+    background-color:rgba(168, 156, 156, 0.507);
+    position:fixed;
+    bottom: 0px;
+    right: 10px;
+    color: black; 
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 12, 94);
+
+    padding: 15px;
+    border-radius:15px 15x 0 0;
+}
+ .linked-in{
+     font-size: 16px;
+     font-weight: 600;
+     color: rgb(13, 12, 94);
+     
+     
+
+ }
+img{
+    float: left;
+}
+section{ float: right;}
+ 
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+    border-style: solid;
+    background-size: contain;
+}   
+.about-me{
+    flex-wrap:left;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+
+.academic-background{
+    border-style: solid;
+    border-width:2px;
+    background-color: whitesmoke;
+}
+
+.images-bli{
+    background-position: left;
+}
+.work-expirience{
+    border-style: solid;
+   border-width: 2px;
+   background-color: whitesmoke;
+}
+
+span{float: left;}
+.s-l{
+    float: left; 
+   border-style: solid;
+   border-width: 2px;
+   background-color: rgb(204, 197, 197);
+   width: 90%;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/montreal-grey.jpg);
+    background-size: cover;
+    font-weight: 900;
+    color:black;
+}
+.future{
+    border-style: solid;
+   border-width: 2px;
+   background-color: rgb(255, 251, 251);
+
+}
+.footer{
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+   background-size: cover;
+   background-image:linear-gradient(to right, rgba(237, 237, 241, 0.329),rgba(150, 144, 146, 0.199)),url(../images/black-mountain.jpg);
+
+}
+ 
+@media screen and (max-width: 720px){
+    .heading-main{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .contact-me-container{
+        display: none;
+    }
+    .header{
+        background-image:linear-gradient(to right,rgba(11, 21, 156, 0.336),rgba(22, 118, 156, 0.322)),url(none) }
+
+    }
